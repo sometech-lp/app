@@ -57,6 +57,94 @@
     <div>読み込み中…</div>
   </div>
   <script>
+    // ミニゲームの音（ブラウザ版だけ）。Dart 側は lib/utils/web_audio_web.dart から呼ぶ。
+    // HTML の audio 要素は iPhone の Safari で1音ごとに遅く、重ねても鳴らないため、
+    // Web Audio で読み込み済みの音を毎回新しく鳴らす（何音でも重ねられ、画面を止めない）。
+    window.sometechAudio = (function () {
+      var Ctx = window.AudioContext || window.webkitAudioContext;
+      if (!Ctx) return null;
+      var ctx = new Ctx();
+      var master = ctx.createGain();
+      master.connect(ctx.destination);
+      var buffers = {};
+      var bgm = { name: null, volume: 1, source: null, gain: null, startedAt: 0, offset: 0 };
+
+      // iPhone は画面に触れたときにしか音を出し始められないので、触れるたびに再開を試す。
+      function unlock() { if (ctx.state !== 'running') ctx.resume(); }
+      ['touchend', 'pointerup', 'keydown'].forEach(function (type) {
+        document.addEventListener(type, unlock, true);
+      });
+
+      function stopSource() {
+        if (bgm.source) {
+          try { bgm.source.stop(); } catch (e) {}
+          bgm.source.disconnect();
+          bgm.source = null;
+        }
+      }
+
+      function startBgm(offset) {
+        var buffer = buffers[bgm.name];
+        if (!buffer) return;
+        stopSource();
+        var source = ctx.createBufferSource();
+        source.buffer = buffer;
+        source.loop = true;
+        bgm.gain = ctx.createGain();
+        bgm.gain.gain.value = bgm.volume;
+        source.connect(bgm.gain).connect(master);
+        bgm.offset = offset % buffer.duration;
+        bgm.startedAt = ctx.currentTime;
+        source.start(0, bgm.offset);
+        bgm.source = source;
+      }
+
+      return {
+        // 音を読み込む。読み込めたら true。
+        load: function (name, url) {
+          return fetch(url)
+            .then(function (r) { return r.arrayBuffer(); })
+            .then(function (data) {
+              return new Promise(function (resolve, reject) {
+                ctx.decodeAudioData(data, resolve, reject);
+              });
+            })
+            .then(function (buffer) { buffers[name] = buffer; return true; })
+            .catch(function () { return false; });
+        },
+        play: function (name, volume) {
+          var buffer = buffers[name];
+          if (!buffer) return;
+          unlock();
+          var source = ctx.createBufferSource();
+          source.buffer = buffer;
+          var gain = ctx.createGain();
+          gain.gain.value = volume;
+          source.connect(gain).connect(master);
+          source.start();
+        },
+        // BGM を最初から流す。
+        restartBgm: function (name, volume) {
+          bgm.name = name;
+          bgm.volume = volume;
+          unlock();
+          startBgm(0);
+        },
+        // 一時停止。再開時は続きから。
+        pauseBgm: function () {
+          if (!bgm.source) return;
+          var buffer = buffers[bgm.name];
+          bgm.offset = (bgm.offset + ctx.currentTime - bgm.startedAt) % buffer.duration;
+          stopSource();
+        },
+        resumeBgm: function () {
+          if (bgm.name && !bgm.source) startBgm(bgm.offset);
+        },
+        stopBgm: function () { stopSource(); bgm.offset = 0; },
+        setMuted: function (muted) { master.gain.value = muted ? 0 : 1; }
+      };
+    })();
+
     window.addEventListener('flutter-first-frame', function () {
       var loading = document.getElementById('loading');
       if (loading) loading.remove();
