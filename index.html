@@ -47,13 +47,14 @@
       font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
       font-size: 14px; letter-spacing: 0.08em;
     }
-    #loading img { width: 88px; height: 88px; border-radius: 22px; }
+    /* 背景の四角がない透過のロゴ（2026-10-11 オーナー指定。ランチャーアイコン風の四角は出さない） */
+    #loading img { width: 88px; height: 88px; }
   </style>
 </head>
 <body>
   <!-- Flutter の最初の画面が出たら消す読み込み表示 -->
   <div id="loading">
-    <img src="icons/Icon-192.png" alt="">
+    <img src="icons/loading-logo.png" alt="">
     <div>読み込み中…</div>
   </div>
   <script>
