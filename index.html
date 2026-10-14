@@ -179,6 +179,31 @@
       };
     })();
 
+    // 画面に触れている指の数と、ミニゲーム中の長押し操作の無効化。
+    // Dart 側は lib/utils/web_touch_web.dart から呼ぶ。
+    // ブラウザが「指を離した」を Flutter に届け損ねると、ミニゲームの機体が動き続けた（2026-10-14）。
+    // touch イベントの touches の数（実際に触れている指の数）と照らして、届かなかった指を忘れる。
+    // count は一度も指が触れていなければ -1。
+    window.sometechTouch = (function () {
+      var count = -1;
+      var locked = false;
+      function sync(e) { count = e.touches ? e.touches.length : 0; }
+      var options = { capture: true, passive: false };
+      window.addEventListener('touchstart', function (e) {
+        sync(e);
+        // ミニゲーム中は、長押しの拡大鏡・文字選択・メニューを出さない。
+        // （Flutter は pointer イベントで押し判定をするので、ここを止めても操作は効く）
+        if (locked && e.cancelable) e.preventDefault();
+      }, options);
+      window.addEventListener('touchmove', sync, { capture: true, passive: true });
+      window.addEventListener('touchend', sync, { capture: true, passive: true });
+      window.addEventListener('touchcancel', sync, { capture: true, passive: true });
+      return {
+        count: function () { return count; },
+        lock: function (on) { locked = !!on; }
+      };
+    })();
+
     window.addEventListener('flutter-first-frame', function () {
       var loading = document.getElementById('loading');
       if (loading) loading.remove();
