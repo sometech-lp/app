@@ -80106,7 +80106,7 @@ a1=b.k2
 a6=0
 for(;a6<a.length;a.length===a0||(0,A.t)(a),++a6){c=a[a6]
 if(Math.abs(c.a-b.c)<=9&&Math.abs(c.b-252)<=8){B.b.E(a5,c)
-if(c.d){b.k3=12
+if(c.d){b.k3=6
 b.fr=0
 b.x="CMY GUN"
 b.y=1.4
