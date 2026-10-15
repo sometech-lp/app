@@ -37,6 +37,24 @@
   <title>染めテク</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- Google アナリティクス（GA4）：利用者数とその推移を見るため（2026-10-16 オーナー指定）。
+       管理画面は https://analytics.google.com 。手元の確認（localhost など）は数えない。 -->
+  <script>
+    (function () {
+      var measurementId = 'G-47EDNJZV62'; // GA4 の測定ID（プロパティ「染めテクアプリ」のストリーム「染めテク Web」）
+      var host = location.hostname;
+      if (host === 'localhost' || host === '127.0.0.1' || host === '[::1]') return;
+      var tag = document.createElement('script');
+      tag.async = true;
+      tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+      document.head.appendChild(tag);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+    })();
+  </script>
+
   <style>
     /* アプリと同じ背景色にして、読み込み中に白い画面が出ないようにする */
     html, body { margin: 0; height: 100%; background: #11151C; }
