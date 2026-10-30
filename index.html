@@ -34,7 +34,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>染めテク</title>
+  <title>SOMETECH</title>
   <link rel="manifest" href="manifest.json">
 
   <!-- Google アナリティクス（GA4）：利用者数とその推移を見るため（2026-10-16 オーナー指定）。
@@ -82,6 +82,24 @@
     <img src="icons/loading-logo.png" alt="">
     <div>読み込み中…</div>
   </div>
+  <script>
+    // SharedPreferences uses the flutter. prefix on the web. Read only the
+    // language preference so the loading message matches the saved selection.
+    (function () {
+      var language = 'ja';
+      try {
+        var saved = localStorage.getItem('flutter.sometech_language_v1');
+        if (saved) language = JSON.parse(saved);
+      } catch (_) {}
+      if (language === 'en') {
+        document.documentElement.lang = 'en';
+        document.querySelector('#loading div').textContent = 'Loading…';
+      } else if (language === 'zh_Hant') {
+        document.documentElement.lang = 'zh-Hant';
+        document.querySelector('#loading div').textContent = '載入中…';
+      }
+    })();
+  </script>
   <script>
     // ブラウザ版の音（ミニゲームの効果音・BGM と、アプリ全体の BGM）。
     // Dart 側は lib/utils/web_audio_web.dart から呼ぶ。
