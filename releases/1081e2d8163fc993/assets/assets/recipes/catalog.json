@@ -1,0 +1,5481 @@
+{
+  "schemaVersion": 1,
+  "recipes": [
+    {
+      "id": "purple-001",
+      "title": "ナシードのパープルカラー",
+      "family": "purple",
+      "beforeLevel": 18,
+      "bleachCount": 2,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "N-パープル",
+          "parts": 100
+        },
+        {
+          "name": "N-ブルー",
+          "parts": 30
+        }
+      ],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "note": "ベースの明るさに応じてブルーの量を調整します。",
+      "beforeAsset": "assets/recipes/purple_001/01_before_original.jpeg",
+      "formulaAsset": "assets/recipes/purple_001/02_formula_original.jpeg",
+      "afterAsset": "assets/recipes/purple_001/04_after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_001/03_after_original.jpeg",
+      "afterRetouched": true,
+      "auxiliaries": [],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "family": "purple",
+      "bleachCount": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "afterRetouched": true,
+      "id": "purple-002",
+      "title": "パープル×ブルーのイヤリングカラー",
+      "beforeLevel": 17,
+      "ingredients": [
+        {
+          "name": "パープル",
+          "parts": 100
+        },
+        {
+          "name": "ブルー",
+          "parts": 30
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 0.5,
+          "unit": "multiplier"
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "note": "イヤリング部分のレシピです。クリアはパープルとブルーの合計量に対して0.5倍。",
+      "formulaAsset": "assets/recipes/purple_002/original.jpeg",
+      "afterAsset": "assets/recipes/purple_002/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_002/original.jpeg",
+      "afterAspectRatio": 0.6666666666666666,
+      "auxiliaries": [],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "family": "purple",
+      "bleachCount": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "afterRetouched": true,
+      "id": "purple-003",
+      "title": "ラベンダーのイヤリングカラー",
+      "beforeLevel": 18.5,
+      "ingredients": [
+        {
+          "name": "Vi8",
+          "parts": 3
+        },
+        {
+          "name": "Bas8",
+          "parts": 1
+        }
+      ],
+      "additions": [
+        {
+          "name": "マニックパニック ライラック",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "note": "イヤリング部分のレシピです。",
+      "formulaAsset": "assets/recipes/purple_003/original.jpeg",
+      "afterAsset": "assets/recipes/purple_003/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_003/original.jpeg",
+      "afterAspectRatio": 0.6666666666666666,
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 3
+        },
+        {
+          "name": "Pi8",
+          "percent": 1
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "family": "purple",
+      "bleachCount": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "afterRetouched": true,
+      "id": "purple-004",
+      "title": "ブルー×パープルのショートカラー",
+      "beforeLevel": 17,
+      "ingredients": [
+        {
+          "name": "N-ブルー",
+          "parts": 1
+        },
+        {
+          "name": "N-パープル",
+          "parts": 1
+        }
+      ],
+      "additions": [
+        {
+          "name": "マニックパニック ライラック",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 1.5,
+      "note": "ビフォーにはオレンジの残留があります。",
+      "formulaAsset": "assets/recipes/purple_004/original.jpeg",
+      "afterAsset": "assets/recipes/purple_004/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_004/original.jpeg",
+      "afterAspectRatio": 0.6666666666666666,
+      "auxiliaries": [],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "オレンジの残留がある状態にカラーしています。"
+    },
+    {
+      "family": "purple",
+      "bleachCount": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "afterRetouched": true,
+      "id": "purple-005",
+      "title": "Vi8×Pi8のイヤリングカラー",
+      "beforeLevel": 17.5,
+      "ingredients": [
+        {
+          "name": "Vi8",
+          "parts": 1
+        },
+        {
+          "name": "Pi8",
+          "parts": 1
+        }
+      ],
+      "additions": [
+        {
+          "name": "マニックパニック ライラック",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "note": "イヤリング部分のレシピです。",
+      "formulaAsset": "assets/recipes/purple_005/original.jpeg",
+      "afterAsset": "assets/recipes/purple_005/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_005/original.jpeg",
+      "afterAspectRatio": 0.6666666666666666,
+      "auxiliaries": [],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "white-001",
+      "title": "ルフレのホワイト系カラー",
+      "family": "white",
+      "beforeLevel": 18.5,
+      "bleachCount": 2,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ラピス",
+          "parts": 1
+        },
+        {
+          "name": "9チェスナット",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "note": "下準備：アクセスフリーとOX6％を2倍で根元をリタッチブリーチ。毛先の薄い残留色は落とさず、そのままオンカラー。\n\n色づくり：ラピスの青紫（C＋M）、チェスナットのブラウン（M＋Y）とベースの残留色を合わせ、CMYのバランスを均等に近づける考え方。\n\nクリアの考え方（清水）：1倍でカラー剤を約2レベル分薄めるイメージ。今回は3倍で約6レベル分、9レベルの主剤を約15レベル相当として捉えています。",
+      "formulaAsset": "assets/recipes/white_001/recipe_source.jpeg",
+      "afterAsset": "assets/recipes/white_001/after_original.jpeg",
+      "afterOriginalAsset": "assets/recipes/white_001/after_original.jpeg",
+      "afterRetouched": false,
+      "afterCrop": {
+        "sourceWidth": 709,
+        "sourceHeight": 1536,
+        "left": 0,
+        "top": 296,
+        "width": 709,
+        "height": 944
+      },
+      "afterAspectRatio": 0.7510593220338984,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "毛先は残留剥がしをせず、残留色を残したままカラーしています。"
+    },
+    {
+      "id": "blue-011",
+      "sourceNumber": "011",
+      "title": "青〜水色のロンググラデーション",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "7アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 10,
+      "formulaArea": "毛先",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "毛先のエノグは総量に対して5％。10分放置で明るめに仕上げ、青と水色の中間を狙う。",
+      "formulaAsset": "assets/recipes/blue_011/original.jpeg",
+      "afterAsset": "assets/recipes/blue_011/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_011/original.jpeg",
+      "afterAspectRatio": 0.5571428571428572,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "additionalFamilies": [
+        "aqua"
+      ]
+    },
+    {
+      "id": "blue-012",
+      "sourceNumber": "012",
+      "title": "コバルトのブルーグラデーション",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "7コバルト",
+          "parts": 1
+        },
+        {
+          "name": "13コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 10
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "processingMinutes": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/blue_012/original.jpeg",
+      "afterAsset": "assets/recipes/blue_012/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_012/original.jpeg",
+      "afterAspectRatio": 0.7679944095038435,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "blue-013",
+      "sourceNumber": "013",
+      "title": "コバルト×アイリスのブルーミディアム",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "11コバルト",
+          "parts": 4
+        },
+        {
+          "name": "11アイリス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9モーヴ",
+          "percent": 5
+        },
+        {
+          "name": "9ブリック",
+          "percent": 5
+        },
+        {
+          "name": "オレンジ",
+          "percent": 5,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "コバルト×アイリスを主剤に、モーヴ・ブリック・オレンジを助剤として調整。",
+      "formulaAsset": "assets/recipes/blue_013/original.jpeg",
+      "afterAsset": "assets/recipes/blue_013/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_013/original.jpeg",
+      "afterAspectRatio": 0.6862615587846763,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "additionalFamilies": [
+        "aqua"
+      ]
+    },
+    {
+      "id": "blue-014",
+      "sourceNumber": "014",
+      "title": "ブルーアッシュのインナーロング",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "ブルーアッシュ8",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "バイオレット8",
+          "percent": 10
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "ブリーチ部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前にナプラのディカライザーで残留剥がしあり。",
+      "formulaAsset": "assets/recipes/blue_014/original.jpeg",
+      "afterAsset": "assets/recipes/blue_014/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_014/original.jpeg",
+      "afterAspectRatio": 0.6878306878306878,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "blue-015",
+      "sourceNumber": "015",
+      "title": "コバルトのインナーショート",
+      "family": "blue",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 10
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "内側",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしあり（原画像：ディカライザー）。",
+      "formulaAsset": "assets/recipes/blue_015/original.jpeg",
+      "afterAsset": "assets/recipes/blue_015/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_015/original.jpeg",
+      "afterAspectRatio": 0.7441540577716643,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "blue-016",
+      "sourceNumber": "016",
+      "title": "コバルトのブルーウルフ",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "6コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "7アイリス",
+          "percent": 10
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "表面",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "表面の青い部分のレシピです。オンカラー前に残留剥がしあり。",
+      "formulaAsset": "assets/recipes/blue_016/original.jpeg",
+      "afterAsset": "assets/recipes/blue_016/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_016/original.jpeg",
+      "afterAspectRatio": 0.6878306878306878,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "blue-017",
+      "sourceNumber": "017",
+      "title": "ブルーハイライトのショート",
+      "family": "blue",
+      "beforeLevel": 5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        },
+        {
+          "name": "9ラピス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/blue_017/original.jpeg",
+      "afterAsset": "assets/recipes/blue_017/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_017/original.jpeg",
+      "afterAspectRatio": 0.7583333333333333,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "blue-018",
+      "sourceNumber": "018",
+      "title": "グリーン×ブルー×イエローのボブ",
+      "family": "blue",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "グリーン",
+          "parts": 3
+        },
+        {
+          "name": "ブルー",
+          "parts": 2
+        },
+        {
+          "name": "イエロー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/blue_018/original.jpeg",
+      "afterAsset": "assets/recipes/blue_018/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_018/original.jpeg",
+      "afterAspectRatio": 0.75,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "blue-019",
+      "sourceNumber": "019",
+      "title": "コバルト×モーヴのインナーロング",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9モーヴ",
+          "percent": 10
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "ブリーチ部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前に残留剥がしあり（原画像：ディカライザー）。",
+      "formulaAsset": "assets/recipes/blue_019/original.jpeg",
+      "afterAsset": "assets/recipes/blue_019/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_019/original.jpeg",
+      "afterAspectRatio": 0.6666666666666666,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "blue-020",
+      "sourceNumber": "020",
+      "title": "ラピス×コバルトのイヤリングカラー",
+      "family": "blue",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ラピス",
+          "parts": 2
+        },
+        {
+          "name": "3コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/blue_020/original.jpeg",
+      "afterAsset": "assets/recipes/blue_020/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_020/original.jpeg",
+      "afterAspectRatio": 0.5568114217727543,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "blue-021",
+      "sourceNumber": "021",
+      "title": "マニックパニックのブルーボブ",
+      "family": "blue",
+      "beforeLevel": 17,
+      "manufacturer": "マニックパニック",
+      "productLine": "",
+      "ingredients": [
+        {
+          "name": "ショッキングブルー",
+          "parts": 5
+        },
+        {
+          "name": "ライラック",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": null,
+      "developerRatio": "使用しない",
+      "processingMinutes": 20,
+      "usesDeveloper": false,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オキシを使用せず、20分放置。",
+      "formulaAsset": "assets/recipes/blue_021/original.jpeg",
+      "afterAsset": "assets/recipes/blue_021/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_021/original.jpeg",
+      "afterAspectRatio": 0.6938911022576362,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "blue-022",
+      "sourceNumber": "022",
+      "title": "コバルト×モーヴのボブトナー",
+      "family": "blue",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        },
+        {
+          "name": "9モーヴ",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "トナー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前に残留剥がしあり。",
+      "formulaAsset": "assets/recipes/blue_022/original.jpeg",
+      "afterAsset": "assets/recipes/blue_022/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_022/original.jpeg",
+      "afterAspectRatio": 0.7009345794392523,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "blue-023",
+      "sourceNumber": "023",
+      "title": "上下で染め分けたブルーのロングウルフ",
+      "family": "blue",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 50,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "under",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/blue_023/original.jpeg",
+      "afterAsset": "assets/recipes/blue_023/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_023/original.jpeg",
+      "afterAspectRatio": 0.6254728877679697,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "blue-024",
+      "sourceNumber": "024",
+      "title": "太めハイライトのブルーショート",
+      "family": "blue",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 20
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 50,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "オンカラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "アクセスフリー＋OX6％を2倍で、全体に太めのハイライト。その後にオンカラー。エノグ50％は原画像の表記どおり。",
+      "formulaAsset": "assets/recipes/blue_024/original.jpeg",
+      "afterAsset": "assets/recipes/blue_024/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_024/original.jpeg",
+      "afterAspectRatio": 0.7429553264604811,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "blue-025",
+      "sourceNumber": "025",
+      "title": "シャドールーツのブルーウルフ",
+      "family": "blue",
+      "beforeLevel": 16,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "ブルー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 20
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "長さ部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/blue_025/original.jpeg",
+      "afterAsset": "assets/recipes/blue_025/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/blue_025/original.jpeg",
+      "afterAspectRatio": 0.6873760740251157,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "purple-006",
+      "sourceNumber": "P006",
+      "title": "アイリス×ラピスのイヤリングカラー",
+      "family": "purple",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9アイリス",
+          "parts": 3
+        },
+        {
+          "name": "9ラピス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "8Vi",
+          "percent": 3,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        },
+        {
+          "name": "8Pi",
+          "percent": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "イヤリング部分のレシピです。",
+      "formulaAsset": "assets/recipes/purple_006/original.jpeg",
+      "afterAsset": "assets/recipes/purple_006/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_006/original.jpeg",
+      "afterAspectRatio": 0.6371737746658179,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "purple-007",
+      "sourceNumber": "P007",
+      "title": "Vi8×As8のパープルショート",
+      "family": "purple",
+      "beforeLevel": 17.5,
+      "beforeLevelUpper": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Vi8",
+          "parts": 3
+        },
+        {
+          "name": "As8",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーパープル",
+          "amount": 2,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "Beforeは原画像に記載された17.5〜18Lvの範囲で記録。",
+      "formulaAsset": "assets/recipes/purple_007/original.jpeg",
+      "afterAsset": "assets/recipes/purple_007/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_007/original.jpeg",
+      "afterAspectRatio": 0.75,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "purple-008",
+      "sourceNumber": "P008",
+      "title": "アイリス×ラピスのアンブレラカラー",
+      "family": "purple",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "7アイリス",
+          "parts": 3
+        },
+        {
+          "name": "3ラピス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "アンブレラ部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前に残留剥がしあり。",
+      "formulaAsset": "assets/recipes/purple_008/original.jpeg",
+      "afterAsset": "assets/recipes/purple_008/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_008/original.jpeg",
+      "afterAspectRatio": 0.75,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "purple-009",
+      "sourceNumber": "P009",
+      "title": "モーヴ×クリアのパープルボブ",
+      "family": "purple",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9モーヴ",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーパープル",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前に残留剥がしあり。",
+      "formulaAsset": "assets/recipes/purple_009/original.jpeg",
+      "afterAsset": "assets/recipes/purple_009/after_cleaned.png",
+      "afterOriginalAsset": "assets/recipes/purple_009/original.jpeg",
+      "afterAspectRatio": 0.75,
+      "afterRetouched": true,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "green-026",
+      "sourceNumber": "026",
+      "title": "くすみグリーンのイヤリングカラー",
+      "family": "green",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "グリーン",
+          "parts": 3
+        },
+        {
+          "name": "イエロー",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/green_026/original.jpeg",
+      "afterAsset": "assets/recipes/green_026/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_026/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7876923076923076,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1081.640625
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "green-027",
+      "sourceNumber": "027",
+      "title": "グリーン残留を活かしたイヤリングカラー",
+      "family": "green",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "KAs6",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーミント",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "前回のグリーン残留がある状態に染めています。イヤリングのリタッチブリーチ・残留剥がし・補色なし。",
+      "formulaAsset": "assets/recipes/green_027/original.jpeg",
+      "afterAsset": "assets/recipes/green_027/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_027/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7876923076923076,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1081.640625
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "イヤリング部分は前回のグリーンの残留を残し、残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "green-028",
+      "sourceNumber": "028",
+      "title": "ダークグリーンのミディアム",
+      "family": "green",
+      "beforeLevel": 12,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "グリーン",
+          "parts": 5
+        },
+        {
+          "name": "ブルー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/green_028/original.jpeg",
+      "afterAsset": "assets/recipes/green_028/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_028/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7876923076923076,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1081.640625
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "green-029",
+      "sourceNumber": "029",
+      "title": "ターコイズ×クリアのミント系インナー",
+      "family": "green",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ターコイズ",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーミント",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "インナー部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前に残留剥がしあり。",
+      "formulaAsset": "assets/recipes/green_029/original.jpeg",
+      "afterAsset": "assets/recipes/green_029/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_029/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.746234817813765,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1141.7317708333335
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "green-030",
+      "sourceNumber": "030",
+      "title": "グリーンのメッシュハイライト",
+      "family": "green",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "グリーン",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "ハイライト部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "アクセスフリー＋OX4％を2倍でメッシュハイライト後にオンカラー。",
+      "formulaAsset": "assets/recipes/green_030/original.jpeg",
+      "afterAsset": "assets/recipes/green_030/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_030/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.746234817813765,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1141.7317708333335
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "green-031",
+      "sourceNumber": "031",
+      "title": "グリーン主体のブルー×イエローボブ",
+      "family": "green",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "グリーン",
+          "parts": 3
+        },
+        {
+          "name": "ブルー",
+          "parts": 1
+        },
+        {
+          "name": "イエロー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/green_031/original.jpeg",
+      "afterAsset": "assets/recipes/green_031/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_031/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7089230769230768,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1201.8229166666667
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "green-032",
+      "sourceNumber": "032",
+      "title": "グリーン×ブルーのボブ",
+      "family": "green",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "グリーン",
+          "parts": 2
+        },
+        {
+          "name": "ブルー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/green_032/original.jpeg",
+      "afterAsset": "assets/recipes/green_032/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/green_032/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7089230769230768,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1201.8229166666667
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "green-033",
+      "sourceNumber": "033",
+      "title": "ダークオリーブグレー",
+      "family": "green",
+      "beforeLevel": 11,
+      "beforeLevelUpper": 12,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "ブルー",
+          "parts": 3
+        },
+        {
+          "name": "グリーン",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 4.5,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "processingMinutes": 15,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "赤み〜オレンジみを抑えたダークオリーブグレー。CMYはC高・M低・Y中の谷型で設計。",
+      "formulaAsset": "assets/recipes/green_033/original.jpeg",
+      "afterAsset": "assets/recipes/green_033/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/green_033/original.jpeg",
+      "afterRetouched": false,
+      "afterAspectRatio": 0.8181818181818182,
+      "afterCrop": {
+        "sourceWidth": 709,
+        "sourceHeight": 1536,
+        "left": 358,
+        "top": 422,
+        "width": 315,
+        "height": 385
+      },
+      "processingMinutesUpper": 20,
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "red-034",
+      "sourceNumber": "034",
+      "title": "ダブルリフトの艶レッド",
+      "family": "red",
+      "beforeLevel": 15,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー／ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "9ガーネット",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "N.ルフレカラー"
+        },
+        {
+          "name": "レッド",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 10,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーレッド",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "トナー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ダブルリフト後にトナー施術。前処理のリフトは原画像で50分。主剤の9ガーネットはN.ルフレカラー、レッドはナシードファッションカラー。",
+      "formulaAsset": "assets/recipes/red_034/original.jpeg",
+      "afterAsset": "assets/recipes/red_034/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/red_034/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5626373626373625,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1514.296875
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "red-035",
+      "sourceNumber": "035",
+      "title": "ガーネット系レッドのロング",
+      "family": "red",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ガーネット",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "マニックパニック ヴァンパイアレッド",
+          "amount": 20,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ブラウンの残留があるBeforeにオンカラー。",
+      "formulaAsset": "assets/recipes/red_035/original.jpeg",
+      "afterAsset": "assets/recipes/red_035/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/red_035/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5671384615384614,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1502.2786458333335
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "ブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "red-036",
+      "sourceNumber": "036",
+      "title": "黒染め履歴毛のレッドハイライト",
+      "family": "red",
+      "beforeLevel": 15,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ガーネット",
+          "parts": 2
+        },
+        {
+          "name": "5ガーネット",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 20,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーレッド",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "ハイライト部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ホームカラーの黒染め履歴多数。ハイライトブリーチ60分後のBefore15Lvに、シャンプー台でトナー施術。",
+      "formulaAsset": "assets/recipes/red_036/original.jpeg",
+      "afterAsset": "assets/recipes/red_036/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/red_036/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6218623481781376,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1370.078125
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "red-037",
+      "sourceNumber": "037",
+      "title": "ホリッカーレッドのポイントカラー",
+      "family": "red",
+      "beforeLevel": 16,
+      "manufacturer": "ミルボン",
+      "productLine": "エノグ",
+      "ingredients": [
+        {
+          "name": "ホリッカーレッド",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": null,
+      "developerRatio": "使用しない",
+      "usesDeveloper": false,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "暖色系の残留が濃くあるBeforeにオンカラー。原画像はトリートメント3倍で希釈。",
+      "formulaAsset": "assets/recipes/red_037/original.jpeg",
+      "afterAsset": "assets/recipes/red_037/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/red_037/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.675164835164835,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1261.9140625
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "暖色系の残留が濃くある状態にカラーしています。"
+    },
+    {
+      "id": "red-038",
+      "sourceNumber": "038",
+      "title": "ピンクブラウン×ピンクレッド",
+      "family": "red",
+      "beforeLevel": 16.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ガーネット",
+          "parts": 3
+        },
+        {
+          "name": "7アイリス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "8ショコラ",
+          "percent": 10,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーレッド",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "Beforeはブリーチ歴のある既染部（毛先）の明るさ。6か月ぶりのカラー。根元の新生部が伸び、既染部にブラウン残留あり。根元はピンクブラウン系、毛先はピンクレッド系の中明度カラー。",
+      "formulaAsset": "assets/recipes/red_038/original.jpeg",
+      "afterAsset": "assets/recipes/red_038/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/red_038/original.jpeg",
+      "afterRetouched": false,
+      "afterAspectRatio": 0.8172323759791122,
+      "afterCrop": {
+        "sourceWidth": 709,
+        "sourceHeight": 1536,
+        "left": 364,
+        "top": 423,
+        "width": 313,
+        "height": 383
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "既染部の毛先は、ブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "pink-039",
+      "sourceNumber": "039",
+      "title": "くすみピンクのストレートボブ",
+      "family": "pink",
+      "beforeLevel": 14,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Pi6",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 15
+        },
+        {
+          "name": "ブルー",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/pink_039/original.jpeg",
+      "afterAsset": "assets/recipes/pink_039/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/pink_039/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 1.2,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 156.23697916666669,
+        "width": 851.9999999999999,
+        "height": 1105.6770833333335
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-040",
+      "sourceNumber": "040",
+      "title": "淡いピンクのイヤリングカラー",
+      "family": "pink",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Pi8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "マニックパニック ホットホットピンク",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ピンクのイヤリング部分のレシピです。",
+      "formulaAsset": "assets/recipes/pink_040/original.jpeg",
+      "afterAsset": "assets/recipes/pink_040/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/pink_040/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 1.2,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 28.840620592383637,
+        "top": 149.02604166666669,
+        "width": 793.11706629055,
+        "height": 853.2942708333334
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-041",
+      "sourceNumber": "041",
+      "title": "やわらかなピンクのロングウェーブ",
+      "family": "pink",
+      "beforeLevel": 13,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Pi8",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "BAs8",
+          "percent": 10
+        },
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "毛先",
+      "additionalFormulas": [
+        {
+          "area": "根元",
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー／ケアテクトカラー",
+          "ingredients": [
+            {
+              "name": "Pi10",
+              "parts": 1
+            },
+            {
+              "name": "Pi12",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [],
+          "additions": [],
+          "developerPercent": 6,
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20
+        }
+      ],
+      "confirmationNote": "",
+      "note": "根元と毛先を別処方で施術。根元のPi10はナシードファッションカラー、Pi12はケアテクトカラー。",
+      "formulaAsset": "assets/recipes/pink_041/original.jpeg",
+      "afterAsset": "assets/recipes/pink_041/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_041/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6444755244755244,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 204.30989583333334,
+        "width": 851.9999999999999,
+        "height": 1322.0052083333335
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-042",
+      "sourceNumber": "042",
+      "title": "ピンクのイヤリングカラー",
+      "family": "pink",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Pi8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 5,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 3
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーネオンピンク",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ピンクのイヤリング部分のみ登録。Before18.5Lv。薄い赤みの残留あり。残留剥がし・根元ブリーチあり。エノグ5％は総量に対して。",
+      "formulaAsset": "assets/recipes/pink_042/original.jpeg",
+      "afterAsset": "assets/recipes/pink_042/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_042/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.675164835164835,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1261.9140625
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしと根元ブリーチをした後にカラーしています。"
+    },
+    {
+      "id": "pink-043",
+      "sourceNumber": "043",
+      "title": "淡いネオンピンクのイヤリングカラー",
+      "family": "pink",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Pi8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーネオンピンク",
+          "amount": 3,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ピンクのイヤリング部分のレシピです。",
+      "formulaAsset": "assets/recipes/pink_043/original.jpeg",
+      "afterAsset": "assets/recipes/pink_043/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_043/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7089230769230768,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1201.8229166666667
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-044",
+      "sourceNumber": "044",
+      "title": "ハイライト残留毛の深みピンクボブ",
+      "family": "pink",
+      "beforeLevel": 11,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9PE",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 4.5,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "Beforeは全体11Lv、ハイライト17Lv。ハイライトの残留あり。色番は原画像の9PEを保持。",
+      "formulaAsset": "assets/recipes/pink_044/original.jpeg",
+      "afterAsset": "assets/recipes/pink_044/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_044/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.746234817813765,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1141.7317708333335
+      },
+      "beforeAreas": [
+        {
+          "area": "全体",
+          "level": 11
+        },
+        {
+          "area": "ハイライト部分",
+          "level": 17
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "ハイライト部分は残留がある状態にカラーしています。"
+    },
+    {
+      "id": "pink-045",
+      "sourceNumber": "045",
+      "title": "スピネルのピンクイヤリングカラー",
+      "family": "pink",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーネオンピンク",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ピンクのイヤリング部分のレシピです。",
+      "formulaAsset": "assets/recipes/pink_045/original.jpeg",
+      "afterAsset": "assets/recipes/pink_045/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_045/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7089230769230768,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1201.8229166666667
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-046",
+      "sourceNumber": "046",
+      "title": "スピネルの深みショートボブ",
+      "family": "pink",
+      "beforeLevel": 10,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ハイライトの残留あり。",
+      "formulaAsset": "assets/recipes/pink_046/original.jpeg",
+      "afterAsset": "assets/recipes/pink_046/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_046/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7233908948194661,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1177.7864583333335
+      },
+      "beforeAreas": [
+        {
+          "area": "ベース",
+          "level": 10
+        },
+        {
+          "area": "ハイライト部分",
+          "level": 16
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "ハイライト部分は残留がある状態にカラーしています。"
+    },
+    {
+      "id": "pink-047",
+      "sourceNumber": "047",
+      "title": "くすみピンクのハイライトボブ",
+      "family": "pink",
+      "beforeLevel": 16,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "ピンク6",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "ベリーブルー8",
+          "percent": 10
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーネオンピンク",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "オンカラー前に残留剥がし1回。",
+      "formulaAsset": "assets/recipes/pink_047/original.jpeg",
+      "afterAsset": "assets/recipes/pink_047/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_047/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7089230769230768,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1201.8229166666667
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしを1回行った後にカラーしています。"
+    },
+    {
+      "id": "pink-048",
+      "sourceNumber": "048",
+      "title": "グリーン残留毛のピンクハイライト",
+      "family": "pink",
+      "beforeLevel": 9,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーネオンピンク",
+          "amount": 10,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 4.5,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "前回のグリーン系の残留がある状態に、残留剥がしをせずにオンカラー。",
+      "formulaAsset": "assets/recipes/pink_048/original.jpeg",
+      "afterAsset": "assets/recipes/pink_048/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_048/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7089230769230768,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1201.8229166666667
+      },
+      "beforeAreas": [
+        {
+          "area": "ベース",
+          "level": 9
+        },
+        {
+          "area": "ハイライト部分",
+          "level": 16
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "前回のグリーンの残留を残し、残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "pink-049",
+      "sourceNumber": "049",
+      "title": "ピンク × スピネルのショート",
+      "family": "pink",
+      "beforeLevel": 11,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー／N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "6ピンク",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        },
+        {
+          "name": "9スピネル",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "N.ルフレカラー"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/pink_049/original.jpeg",
+      "afterAsset": "assets/recipes/pink_049/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_049/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7876923076923076,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 312.47395833333337,
+        "width": 851.9999999999999,
+        "height": 1081.640625
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-050",
+      "sourceNumber": "050",
+      "title": "ピンク系ハイライトのトナー",
+      "family": "pink",
+      "beforeLevel": 16.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "トナー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ハイライト後にトナー施術。根元はトーンアップなし。",
+      "formulaAsset": "assets/recipes/pink_050/original.jpeg",
+      "afterAsset": "assets/recipes/pink_050/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_050/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.675164835164835,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1261.9140625
+      },
+      "beforeAreas": [
+        {
+          "area": "ハイライト部分",
+          "level": 16.5
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-051",
+      "sourceNumber": "051",
+      "title": "スピネル × ブリックのピンクボブ",
+      "family": "pink",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        },
+        {
+          "name": "9ブリック",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9モーヴ",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留あり。根元塗布後、毛先をトナー施術。残留剥がしなし。クリア1倍は、クリア以外の主剤の合計量と同じ量。",
+      "formulaAsset": "assets/recipes/pink_051/original.jpeg",
+      "afterAsset": "assets/recipes/pink_051/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_051/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.675164835164835,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1261.9140625
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせず、残留がある状態にカラーしています。"
+    },
+    {
+      "id": "pink-052",
+      "sourceNumber": "052",
+      "title": "スピネル × アメトリンのピンクウェーブ",
+      "family": "pink",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 2
+        },
+        {
+          "name": "9アメトリン",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9モーヴ",
+          "percent": 5
+        },
+        {
+          "name": "9チェスナット",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留あり。リタッチブリーチのみ。毛先の残留剥がしなし。クリア1倍は、クリア以外の主剤の合計量と同じ量。",
+      "formulaAsset": "assets/recipes/pink_052/original.jpeg",
+      "afterAsset": "assets/recipes/pink_052/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_052/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6444755244755244,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1322.0052083333335
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "毛先は残留剥がしをせず、残留色を残したままカラーしています。"
+    },
+    {
+      "id": "pink-053",
+      "sourceNumber": "053",
+      "title": "ピンクベージュ系のハイライトボブ",
+      "family": "pink",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ブリック",
+          "parts": 1
+        },
+        {
+          "name": "9スピネル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ピンクベージュ系。クリア1倍は、クリア以外の主剤の合計量と同じ量。",
+      "formulaAsset": "assets/recipes/pink_053/original.jpeg",
+      "afterAsset": "assets/recipes/pink_053/after_cleaned_v2.png",
+      "afterOriginalAsset": "assets/recipes/pink_053/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6444755244755244,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 0.0,
+        "top": 128.59505208333334,
+        "width": 851.9999999999999,
+        "height": 1322.0052083333335
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "pink-054",
+      "sourceNumber": "054",
+      "title": "暗めピンクブラウン × ピンクレッド",
+      "family": "pink",
+      "beforeLevel": 8,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーネオンピンク",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "Beforeはベース8Lv、ハイライト17Lv＋ブラウン残留。全体に濃いめのピンク系でオンカラーし、ハイライトは暗めのピンクレッド系、ベースは暗めのピンクブラウン系に。",
+      "formulaAsset": "assets/recipes/pink_054/original.jpeg",
+      "afterAsset": "assets/recipes/pink_054/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/pink_054/original.jpeg",
+      "afterRetouched": false,
+      "afterAspectRatio": 0.8181818181818182,
+      "afterCrop": {
+        "sourceWidth": 709,
+        "sourceHeight": 1536,
+        "left": 358,
+        "top": 422,
+        "width": 315,
+        "height": 385
+      },
+      "beforeAreas": [
+        {
+          "area": "ベース",
+          "level": 8
+        },
+        {
+          "area": "ハイライト部分",
+          "level": 17
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "ハイライト部分はブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "greige-055",
+      "sourceNumber": "055",
+      "title": "艶のあるダークグレージュロング",
+      "family": "greige",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT4",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "ブルー",
+          "percent": 10
+        },
+        {
+          "name": "パープル",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [
+        {
+          "area": "毛先",
+          "manufacturer": "ミルボン",
+          "productLine": "エノグ",
+          "ingredients": [
+            {
+              "name": "OFF BLACK",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [],
+          "additions": [],
+          "developerPercent": 3,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "confirmationNote": "",
+      "note": "ブラウン系の残留があるベースに施術。毛先にはエノグのOFF BLACKを別処方で使用。",
+      "formulaAsset": "assets/recipes/greige_055/original.jpeg",
+      "afterAsset": "assets/recipes/greige_055/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_055/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "ブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "greige-056",
+      "sourceNumber": "056",
+      "title": "クールグレージュのミディアム",
+      "family": "greige",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT4",
+          "parts": 3
+        },
+        {
+          "name": "Be6",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "ブルー",
+          "percent": 10
+        },
+        {
+          "name": "パープル",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "MT4とBe6は3：1。クリアはその合計量に対して1倍。",
+      "formulaAsset": "assets/recipes/greige_056/original.jpeg",
+      "afterAsset": "assets/recipes/greige_056/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_056/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "greige-057",
+      "sourceNumber": "057",
+      "title": "残留毛のやわらかグレージュレイヤー",
+      "family": "greige",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Ch8",
+          "parts": 1
+        },
+        {
+          "name": "MT8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "毛先",
+      "additionalFormulas": [
+        {
+          "area": "根元",
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー",
+          "ingredients": [
+            {
+              "name": "MT12",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [
+            {
+              "name": "Kas8",
+              "percent": 10
+            }
+          ],
+          "additions": [],
+          "developerPercent": 6,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "confirmationNote": "",
+      "note": "Beforeは18Lv前後で残留あり。リタッチブリーチ・残留剥がしは行わず、根元と毛先を別処方でオンカラー。",
+      "formulaAsset": "assets/recipes/greige_057/original.jpeg",
+      "afterAsset": "assets/recipes/greige_057/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_057/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせず、残留がある状態にカラーしています。"
+    },
+    {
+      "id": "greige-058",
+      "sourceNumber": "058",
+      "title": "モノトーン×フォギーベージュのショート",
+      "family": "greige",
+      "beforeLevel": 13,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT10",
+          "parts": 1
+        },
+        {
+          "name": "FBe10",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/greige_058/original.jpeg",
+      "afterAsset": "assets/recipes/greige_058/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_058/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "greige-059",
+      "sourceNumber": "059",
+      "title": "ラピスのグレージュハイライトボブ",
+      "family": "greige",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "13ラピス",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        },
+        {
+          "name": "9ブリック",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：2（2倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/greige_059/original.jpeg",
+      "afterAsset": "assets/recipes/greige_059/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_059/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "beforeAreas": [
+        {
+          "area": "ハイライト部分",
+          "level": 17
+        }
+      ]
+    },
+    {
+      "id": "greige-060",
+      "sourceNumber": "060",
+      "title": "残留を活かしたグレージュボブ",
+      "family": "greige",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT6",
+          "parts": 4
+        },
+        {
+          "name": "BAs6",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 10
+        },
+        {
+          "name": "Br8",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "残留剥がしは行わず、残留色を残したままオンカラー。",
+      "formulaAsset": "assets/recipes/greige_060/original.jpeg",
+      "afterAsset": "assets/recipes/greige_060/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_060/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "残留剥がしをせず、残留がある状態にカラーしています。"
+    },
+    {
+      "id": "greige-061",
+      "sourceNumber": "061",
+      "title": "ラピスのやわらかグレージュボブ",
+      "family": "greige",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "7ラピス",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 4,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        },
+        {
+          "name": "9ブリック",
+          "percent": 10
+        },
+        {
+          "name": "オレンジ",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/greige_061/original.jpeg",
+      "afterAsset": "assets/recipes/greige_061/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_061/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "additionalFamilies": [
+        "beige"
+      ]
+    },
+    {
+      "id": "greige-062",
+      "sourceNumber": "062",
+      "title": "ナチュラル×モノトーンのグレージュ",
+      "family": "greige",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "N8",
+          "parts": 5
+        },
+        {
+          "name": "MT8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        },
+        {
+          "name": "オレンジ",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "根元はリタッチブリーチ。毛先の残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/greige_062/original.jpeg",
+      "afterAsset": "assets/recipes/greige_062/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_062/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "毛先は残留剥がしをせず、残留色を残したままカラーしています。",
+      "additionalFamilies": [
+        "beige"
+      ]
+    },
+    {
+      "id": "greige-063",
+      "sourceNumber": "063",
+      "title": "チェスナット×フォグのグレージュボブ",
+      "family": "greige",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ブリック",
+          "parts": 3
+        },
+        {
+          "name": "9フォグ",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "毛先",
+      "additionalFormulas": [
+        {
+          "area": "根元",
+          "manufacturer": "ナプラ",
+          "productLine": "N.ルフレカラー",
+          "ingredients": [
+            {
+              "name": "9チェスナット",
+              "parts": 3
+            },
+            {
+              "name": "9フォグ",
+              "parts": 1
+            },
+            {
+              "name": "クリアカラー",
+              "parts": 1,
+              "unit": "multiplier"
+            }
+          ],
+          "auxiliaries": [
+            {
+              "name": "9アイリス",
+              "percent": 5
+            }
+          ],
+          "additions": [],
+          "developerPercent": 2,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "confirmationNote": "",
+      "note": "根元はリタッチブリーチ。毛先の残留剥がしは行わず、根元と毛先を別処方でオンカラー。",
+      "formulaAsset": "assets/recipes/greige_063/original.jpeg",
+      "afterAsset": "assets/recipes/greige_063/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_063/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "毛先は残留剥がしをせず、残留色を残したままカラーしています。",
+      "additionalFamilies": [
+        "beige"
+      ]
+    },
+    {
+      "id": "greige-064",
+      "sourceNumber": "064",
+      "title": "アメトリンのグレージュイヤリングカラー",
+      "family": "greige",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9アメトリン",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "グレージュのイヤリング部分のレシピです。リタッチブリーチ・残留剥がしは行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/greige_064/original.jpeg",
+      "afterAsset": "assets/recipes/greige_064/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_064/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "residualColorNote": "イヤリング部分は残留剥がしをせずにカラーしています。",
+      "additionalFamilies": [
+        "beige"
+      ]
+    },
+    {
+      "id": "greige-065",
+      "sourceNumber": "065",
+      "title": "ダブルリフトの明るめグレージュボブ",
+      "family": "greige",
+      "beforeLevel": 14,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "5フォグ",
+          "parts": 1
+        },
+        {
+          "name": "13ラピス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "11Lvから14Lvへリフトした後にオンカラー。前処理はライトナー＋アクセスフリー＝1：25％、OX6％を2倍、放置45分。",
+      "formulaAsset": "assets/recipes/greige_065/original.jpeg",
+      "afterAsset": "assets/recipes/greige_065/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_065/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "additionalFamilies": [
+        "beige"
+      ]
+    },
+    {
+      "id": "greige-066",
+      "sourceNumber": "066",
+      "title": "フォギーベージュの艶ボブ",
+      "family": "brown",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "FBe4",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "毛先",
+      "additionalFormulas": [
+        {
+          "area": "根元",
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー",
+          "ingredients": [
+            {
+              "name": "MT6",
+              "parts": 1
+            },
+            {
+              "name": "MT8",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [],
+          "additions": [],
+          "developerPercent": 6,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "confirmationNote": "",
+      "note": "根元と毛先を別処方でオンカラー。",
+      "formulaAsset": "assets/recipes/greige_066/original.jpeg",
+      "afterAsset": "assets/recipes/greige_066/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_066/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "greige-067",
+      "sourceNumber": "067",
+      "title": "ブルーアッシュのグレージュハイライトボブ",
+      "family": "greige",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "BAs12",
+          "parts": 1
+        },
+        {
+          "name": "BBL12",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "ハイライト後17Lvの部分にトナー施術。",
+      "formulaAsset": "assets/recipes/greige_067/original.jpeg",
+      "afterAsset": "assets/recipes/greige_067/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_067/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "beforeAreas": [
+        {
+          "area": "ハイライト部分",
+          "level": 17
+        }
+      ]
+    },
+    {
+      "id": "greige-068",
+      "sourceNumber": "068",
+      "title": "ラピスのグレージュレイヤー",
+      "family": "greige",
+      "beforeLevel": 14,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "7ラピス",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/greige_068/original.jpeg",
+      "afterAsset": "assets/recipes/greige_068/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_068/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "greige-069",
+      "sourceNumber": "069",
+      "title": "メタル×アメトリンのグレージュボブ",
+      "family": "greige",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9メタル",
+          "parts": 3
+        },
+        {
+          "name": "9アメトリン",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9チェスナット",
+          "percent": 5
+        },
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/greige_069/original.jpeg",
+      "afterAsset": "assets/recipes/greige_069/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_069/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5608465608465608,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 140,
+        "width": 848,
+        "height": 1512
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "greige-070",
+      "sourceNumber": "070",
+      "title": "ホワイトベージュのショート",
+      "family": "beige",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "13メタル",
+          "parts": 1
+        },
+        {
+          "name": "13チェスナット",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        },
+        {
+          "name": "オレンジ",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：2（2倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "",
+      "formulaAsset": "assets/recipes/greige_070/original.jpeg",
+      "afterAsset": "assets/recipes/greige_070/after_cleaned_v1.png",
+      "afterOriginalAsset": "assets/recipes/greige_070/original.jpeg",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.5623342175066313,
+      "afterCrop": {
+        "sourceWidth": 852,
+        "sourceHeight": 1846,
+        "left": 2,
+        "top": 130,
+        "width": 848,
+        "height": 1508
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "greige-071",
+      "sourceNumber": "071",
+      "title": "ハイライトを活かしたグレージュボブ",
+      "family": "greige",
+      "beforeLevel": 10,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9メタル",
+          "parts": 1
+        },
+        {
+          "name": "9ブリック",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 4.5,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "4か月前に全体のハイライトと表面のアンブレラブリーチ履歴あり。ベース10Lv、ハイライト17Lv＋ブラウン残留からオンカラー。",
+      "formulaAsset": "assets/recipes/greige_071/original.jpeg",
+      "afterAsset": "assets/recipes/greige_071/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/greige_071/original.jpeg",
+      "afterRetouched": false,
+      "afterAspectRatio": 0.8210526315789474,
+      "afterCrop": {
+        "sourceWidth": 709,
+        "sourceHeight": 1536,
+        "left": 366,
+        "top": 424,
+        "width": 312,
+        "height": 380
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "beforeAreas": [
+        {
+          "area": "ベース",
+          "level": 10
+        },
+        {
+          "area": "ハイライト部分",
+          "level": 17
+        }
+      ],
+      "residualColorNote": "ハイライト部分はブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "greige-072",
+      "sourceNumber": "072",
+      "title": "グレージュのハイライトデザイン",
+      "family": "greige",
+      "beforeLevel": 4,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9メタル",
+          "parts": 3
+        },
+        {
+          "name": "9アメトリン",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9チェスナット",
+          "percent": 5
+        },
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "カラー",
+      "additionalFormulas": [],
+      "confirmationNote": "",
+      "note": "4か月前のアンブレラブリーチ履歴あり。今回は全体のハイライトを入れ直してからオンカラー。",
+      "formulaAsset": "assets/recipes/greige_072/original.jpeg",
+      "afterAsset": "assets/recipes/greige_072/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/greige_072/original.jpeg",
+      "afterRetouched": false,
+      "afterAspectRatio": 0.8203125,
+      "afterCrop": {
+        "sourceWidth": 709,
+        "sourceHeight": 1536,
+        "left": 358,
+        "top": 422,
+        "width": 315,
+        "height": 384
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      },
+      "beforeAreas": [
+        {
+          "area": "ベース",
+          "level": 4
+        },
+        {
+          "area": "ハイライト部分",
+          "level": 17
+        }
+      ],
+      "residualColorNote": "元データのビフォーには、ハイライト部分のブラウンの残留が記載されています。"
+    },
+    {
+      "id": "gray-073",
+      "sourceNumber": "073",
+      "title": "18LVベースのモノトーングレー",
+      "family": "greige",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT4",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 20
+        },
+        {
+          "name": "ブルー",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "クリア等倍は、クリア以外の主剤合計と同じ量。",
+      "formulaAsset": "assets/recipes/gray_073/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_073/original.jpeg",
+      "afterAsset": "assets/recipes/gray_073/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6307789740341989,
+      "confirmationNote": "",
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "gray-074",
+      "sourceNumber": "074",
+      "title": "ブラウン残留毛のモノトーングレー",
+      "family": "greige",
+      "beforeLevel": 18.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT4",
+          "parts": 2
+        },
+        {
+          "name": "パープル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "ブルー",
+          "percent": 20
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "毛先",
+      "additionalFormulas": [
+        {
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー",
+          "ingredients": [
+            {
+              "name": "MT8",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [
+            {
+              "name": "ブルー",
+              "percent": 15
+            }
+          ],
+          "additions": [],
+          "developerPercent": 6,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "area": "根元",
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "note": "ブラウンの残留あり。根元と毛先を別処方でオンカラー。",
+      "formulaAsset": "assets/recipes/gray_074/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_074/original.jpeg",
+      "afterAsset": "assets/recipes/gray_074/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6254728877679697,
+      "confirmationNote": "",
+      "residualColorNote": "ブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "gray-075",
+      "sourceNumber": "075",
+      "title": "ハイライトを入れ直したグレーボブ",
+      "family": "gray",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT6",
+          "parts": 2
+        },
+        {
+          "name": "Ch6",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 4,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "ハイライト部分",
+      "additionalFormulas": [
+        {
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー",
+          "ingredients": [
+            {
+              "name": "MT4",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [
+            {
+              "name": "ブルー",
+              "percent": 10
+            },
+            {
+              "name": "バイオレット",
+              "percent": 5
+            }
+          ],
+          "additions": [],
+          "developerPercent": 3,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "area": "ベース",
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "note": "ハイライトを入れ直してからオンカラー。",
+      "formulaAsset": "assets/recipes/gray_075/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_075/original.jpeg",
+      "afterAsset": "assets/recipes/gray_075/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7595552466990966,
+      "confirmationNote": "",
+      "beforeAreas": [
+        {
+          "area": "ハイライト部分",
+          "level": 17.5
+        }
+      ],
+      "additionalFamilies": [
+        "silver"
+      ]
+    },
+    {
+      "id": "gray-076",
+      "sourceNumber": "076",
+      "title": "ラピス系のクールグレーショート",
+      "family": "gray",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "13ラピス",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：2（2倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "表面（グレー部分）",
+      "additionalFormulas": [],
+      "note": "表面のシルバー・グレー部分のレシピです。前処理：アクセスフリーパウダーブリーチ、OX6％2倍、60分放置後17.5Lv。下の青い部分は同じ写真のブルー分類で別の処方として表示します。",
+      "formulaAsset": "assets/recipes/gray_076/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_076/original.jpeg",
+      "afterAsset": "assets/recipes/gray_076/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.75,
+      "confirmationNote": "",
+      "additionalFamilies": [
+        "silver"
+      ]
+    },
+    {
+      "id": "gray-077",
+      "sourceNumber": "077",
+      "title": "カーキアッシュとモノトーンのグレーレイヤー",
+      "family": "gray",
+      "beforeLevel": 14,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Kas6",
+          "parts": 1
+        },
+        {
+          "name": "MT6",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "ブルー",
+          "percent": 10
+        },
+        {
+          "name": "パープル",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "",
+      "formulaAsset": "assets/recipes/gray_077/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_077/original.jpeg",
+      "afterAsset": "assets/recipes/gray_077/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.698201199200533,
+      "confirmationNote": ""
+    },
+    {
+      "id": "gray-078",
+      "sourceNumber": "078",
+      "title": "ブルーシルバーのボブ",
+      "family": "gray",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "7ラピス",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "7アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "残留剥がしを行わずにオンカラー。",
+      "formulaAsset": "assets/recipes/gray_078/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_078/original.jpeg",
+      "afterAsset": "assets/recipes/gray_078/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6954787234042553,
+      "confirmationNote": "",
+      "residualColorNote": "残留剥がしをせずにカラーしています。"
+    },
+    {
+      "id": "gray-079",
+      "sourceNumber": "079",
+      "title": "ブルーアッシュとグリーンのダークグレーボブ",
+      "family": "gray",
+      "beforeLevel": 10,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "BAs6",
+          "parts": 1
+        },
+        {
+          "name": "MT6",
+          "parts": 1
+        },
+        {
+          "name": "グリーン",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "",
+      "formulaAsset": "assets/recipes/gray_079/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_079/original.jpeg",
+      "afterAsset": "assets/recipes/gray_079/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.75,
+      "confirmationNote": ""
+    },
+    {
+      "id": "gray-080",
+      "sourceNumber": "080",
+      "title": "表面グレーのレイヤーカラー",
+      "family": "gray",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9メタル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "表面毛先（グレー部分）",
+      "additionalFormulas": [
+        {
+          "manufacturer": "ナプラ",
+          "productLine": "N.ルフレカラー",
+          "ingredients": [
+            {
+              "name": "9メタル",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [
+            {
+              "name": "9アイリス",
+              "percent": 5
+            },
+            {
+              "name": "9チェスナット",
+              "percent": 10
+            }
+          ],
+          "additions": [],
+          "developerPercent": 2,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "area": "表面根元",
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "note": "表面のグレー部分だけのレシピです。表面の根元と毛先は別処方で表示します。リタッチブリーチのみで、毛先の残留剥がしは行っていません。",
+      "formulaAsset": "assets/recipes/gray_080/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_080/original.jpeg",
+      "afterAsset": "assets/recipes/gray_080/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6782665791201575,
+      "confirmationNote": "",
+      "beforeAreas": [
+        {
+          "area": "表面（グレー部分）",
+          "level": 18.5
+        }
+      ],
+      "residualColorNote": "表面の毛先は残留剥がしをせずにカラーしています。",
+      "additionalFamilies": [
+        "silver"
+      ]
+    },
+    {
+      "id": "gray-081",
+      "sourceNumber": "081",
+      "title": "色持ち重視のダークグレーアンブレラ",
+      "family": "gray",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT4",
+          "parts": 1
+        },
+        {
+          "name": "PS6",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "ブルー",
+          "percent": 5
+        },
+        {
+          "name": "パープル",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "トップ（インナー以外）",
+      "additionalFormulas": [],
+      "note": "トップは残留剥がし後17.5Lv。インナーは以前OFF BLACKでオンカラーした4Lvで、今回は塗らずにそのまま。色持ち重視。",
+      "formulaAsset": "assets/recipes/gray_081/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_081/original.jpeg",
+      "afterAsset": "assets/recipes/gray_081/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6666666666666666,
+      "confirmationNote": "",
+      "beforeAreas": [
+        {
+          "area": "トップ（インナー以外）",
+          "level": 17.5
+        }
+      ],
+      "residualColorNote": "トップは残留剥がしをした後にカラーしています。"
+    },
+    {
+      "id": "gray-082",
+      "sourceNumber": "082",
+      "title": "シルバーのショートデザイン",
+      "family": "gray",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "13ラピス",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "上部（シルバー部分）",
+      "additionalFormulas": [],
+      "note": "写真の上のシルバー部分のレシピです。下のピンク部分は同じ写真のピンク分類で別の処方として表示します。ブリーチ1回。アクセスフリーパウダーブリーチ、OX6％2倍、60分放置後17Lv程度。",
+      "formulaAsset": "assets/recipes/gray_082/formula_original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_082/original.jpeg",
+      "afterAsset": "assets/recipes/gray_082/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.75,
+      "confirmationNote": "",
+      "afterCrop": null,
+      "bleachCount": 1,
+      "additionalFamilies": [
+        "silver"
+      ]
+    },
+    {
+      "id": "gray-083",
+      "sourceNumber": "083",
+      "title": "コバルトとメタルのダークグレーメンズレイヤー",
+      "family": "gray",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "3コバルト",
+          "parts": 1
+        },
+        {
+          "name": "5メタル",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "7アイリス",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "前処理：アクセスフリー、OX6％2倍。",
+      "formulaAsset": "assets/recipes/gray_083/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_083/original.jpeg",
+      "afterAsset": "assets/recipes/gray_083/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6966067864271457,
+      "confirmationNote": ""
+    },
+    {
+      "id": "gray-084",
+      "sourceNumber": "084",
+      "title": "エクステに合わせたグレーのベースカラー",
+      "family": "greige",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT8",
+          "parts": 3
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "BBL8",
+          "parts": 1,
+          "mainParts": 3
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：2（2倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "ベース（グレー部分）",
+      "additionalFormulas": [],
+      "note": "グレーのベース部分だけのレシピです。エクステの色に合わせて配合。BBLは助剤・補色の役割で使用（原文のMT8：BBL8＝3：1を保持）。リタッチはアクセスフリー、OX6％2倍。",
+      "formulaAsset": "assets/recipes/gray_084/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_084/original.jpeg",
+      "afterAsset": "assets/recipes/gray_084/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6878306878306878,
+      "confirmationNote": "",
+      "beforeAreas": [
+        {
+          "area": "ベース（グレー部分）",
+          "level": 18
+        }
+      ]
+    },
+    {
+      "id": "gray-085",
+      "sourceNumber": "085",
+      "title": "フォギーベージュのグレーショート",
+      "family": "greige",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "FBe4",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Ch6",
+          "percent": 20
+        },
+        {
+          "name": "パープル",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "",
+      "formulaAsset": "assets/recipes/gray_085/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_085/original.jpeg",
+      "afterAsset": "assets/recipes/gray_085/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7429553264604811,
+      "confirmationNote": ""
+    },
+    {
+      "id": "blue-076",
+      "sourceNumber": "076",
+      "title": "グレーショートの下部ブルーカラー",
+      "family": "blue",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9コバルト",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーブルー",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "下部（ブルー部分）",
+      "additionalFormulas": [],
+      "note": "写真の下の青い部分のレシピです。9コバルトに対して9アイリス5％、追加配合はエノグ ホリッカーブルー5％。表面のグレー部分は同じ写真のグレー分類で別の処方として表示します。",
+      "formulaAsset": "assets/recipes/gray_076/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_076/original.jpeg",
+      "afterAsset": "assets/recipes/gray_076/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.75,
+      "confirmationNote": ""
+    },
+    {
+      "id": "pink-082",
+      "sourceNumber": "082",
+      "title": "シルバーショートの下部ピンクカラー",
+      "family": "pink",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9スピネル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [
+        {
+          "name": "エノグ ホリッカーライトピンク",
+          "amount": 5,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "下部（ピンク部分）",
+      "additionalFormulas": [],
+      "note": "写真の下のピンク部分のレシピです。9スピネル＋クリア＝1：3、9アイリス5％。追加のエノグ ホリッカーライトピンク5％は原資料の「総量に対して」という指定を保持しています。上のシルバー部分は同じ写真のグレー分類で別の処方として表示します。ブリーチ1回、オンカラー直前17Lv程度。",
+      "formulaAsset": "assets/recipes/gray_082/formula_original.jpeg",
+      "afterOriginalAsset": "assets/recipes/gray_082/original.jpeg",
+      "afterAsset": "assets/recipes/gray_082/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.75,
+      "confirmationNote": "",
+      "afterCrop": null,
+      "bleachCount": 1
+    },
+    {
+      "id": "beige-086",
+      "sourceNumber": "086",
+      "title": "イヤリングカラーのミルクティーベージュ",
+      "family": "beige",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MT8",
+          "parts": 3
+        },
+        {
+          "name": "Be10",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "パープル",
+          "percent": 1
+        }
+      ],
+      "additions": [],
+      "developerPercent": 3,
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "note": "明るいイヤリングブリーチ部分のレシピです。クリアはMT8とBe10の合計量に対して1倍。その他の暗い部分は登録対象に含めていません。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/beige_086/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/beige_086/original.jpeg",
+      "afterAsset": "assets/recipes/beige_086/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.46153846153846156,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "beforeAreas": [
+        {
+          "area": "イヤリング部分",
+          "level": 17
+        }
+      ]
+    },
+    {
+      "id": "beige-087",
+      "sourceNumber": "087",
+      "title": "ミルクティーカラーの外ハネボブ",
+      "family": "beige",
+      "beforeLevel": 17,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "MBe8",
+          "parts": 1
+        },
+        {
+          "name": "Ch8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 2,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "ミルクティーカラーの外ハネボブ。クリアはMBe8とCh8の合計量に対して2倍。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/beige_087/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/beige_087/original.jpeg",
+      "afterAsset": "assets/recipes/beige_087/after_cleaned_v2.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.8130841121495327,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+    },
+    {
+      "id": "beige-088",
+      "sourceNumber": "088",
+      "title": "シャンプー台でオンカラーしたミルクティーロング",
+      "family": "beige",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ブリック",
+          "parts": 3
+        },
+        {
+          "name": "9チェスナット",
+          "parts": 2
+        },
+        {
+          "name": "9アメトリン",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        },
+        {
+          "name": "オレンジ",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "アクセスフリー、OX6％2倍で前処理後、シャンプー台でオンカラー。クリアはクリア以外の主剤合計に対して1倍。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/beige_088/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/beige_088/original.jpeg",
+      "afterAsset": "assets/recipes/beige_088/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6943521594684385,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+    },
+    {
+      "id": "beige-089",
+      "sourceNumber": "089",
+      "title": "ほんのりピンクのミルクティーベージュボブ",
+      "family": "beige",
+      "beforeLevel": 17.5,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ブリック",
+          "parts": 4
+        },
+        {
+          "name": "9スピネル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9アイリス",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "剥がしきれないブラウン残留のあるベースへオンカラー。ほんのりピンク感のあるミルクティーベージュ。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/beige_089/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/beige_089/original.jpeg",
+      "afterAsset": "assets/recipes/beige_089/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.46153846153846156,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "residualColorNote": "剥がしきれないブラウンの残留がある状態にカラーしています。"
+    },
+    {
+      "id": "beige-090",
+      "sourceNumber": "090",
+      "title": "ミルクティー系アンブレラカラー",
+      "family": "beige",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "9ブリック",
+          "parts": 1
+        },
+        {
+          "name": "9メタル",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "9モーヴ",
+          "percent": 5
+        },
+        {
+          "name": "オレンジ",
+          "percent": 5
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "アンブレラ部分",
+      "additionalFormulas": [],
+      "note": "明るいアンブレラ部分のレシピです。前処理はアクセスフリー、OX6％2倍、放置50分。オンカラーの放置時間とは別です。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/beige_090/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/beige_090/original.jpeg",
+      "afterAsset": "assets/recipes/beige_090/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.46153846153846156,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "beforeAreas": [
+        {
+          "area": "アンブレラ部分",
+          "level": 17
+        }
+      ]
+    },
+    {
+      "id": "beige-091",
+      "sourceNumber": "091",
+      "title": "ライトナーを使ったミルクティー系ロング",
+      "family": "beige",
+      "beforeLevel": 15,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "Ch8",
+          "parts": 1
+        },
+        {
+          "name": "Br8",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "",
+      "additionalFormulas": [],
+      "note": "オンカラー直前は15Lv。前処理はライトナー＋アクセスフリー＝1：20％、OX6％2倍、放置60分。オンカラーはCh8：Br8＝1：1。前処理の時間とオンカラーの放置時間は別です。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/beige_091/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/beige_091/original.jpeg",
+      "afterAsset": "assets/recipes/beige_091/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.46153846153846156,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+    },
+    {
+      "id": "orange-092",
+      "sourceNumber": "092",
+      "title": "オレンジ＋クリアのロングカラー",
+      "family": "orange",
+      "beforeLevel": 18,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 2
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 3,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "全体",
+      "additionalFormulas": [],
+      "note": "",
+      "residualColorNote": "",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_092/formula_original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_092/original.jpeg",
+      "afterAsset": "assets/recipes/orange_092/after_cleaned_v3.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6666666666666666,
+      "beforeAssessment": {
+        "status": "user_confirmed",
+        "level": 18,
+        "levelUpper": null,
+        "photo": "IMG_0538.jpeg",
+        "area": "全体",
+        "referenceRecipeIds": [],
+        "rationale": "清水さんの回答「１８」を保存。オンカラー直前のBefore。",
+        "confidence": "owner_confirmed",
+        "ownerConfirmed": true,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json"
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-093",
+      "sourceNumber": "093",
+      "title": "淡いオレンジのイヤリングカラー",
+      "family": "orange",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 2
+        },
+        {
+          "name": "ROr8",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 3,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "イヤリング部分",
+      "additionalFormulas": [],
+      "note": "前処理はアクセスフリー6％2倍・アリミノブリーチ120の6％1.5倍で塗り分け。オンカラーのOX・放置時間と分けて記録。",
+      "residualColorNote": "",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_093/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_093/original.jpeg",
+      "afterAsset": "assets/recipes/orange_093/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.562200956937799,
+      "beforeAssessment": {
+        "status": "user_confirmed",
+        "level": 18,
+        "levelUpper": null,
+        "photo": "IMG_0539.jpeg",
+        "area": "イヤリング部分",
+        "referenceRecipeIds": [],
+        "rationale": "清水さんの回答「１８」を保存。オンカラー直前のBefore。",
+        "confidence": "owner_confirmed",
+        "ownerConfirmed": true,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json"
+      },
+      "beforeAreas": [
+        {
+          "area": "イヤリング部分",
+          "level": 18
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-094",
+      "sourceNumber": "094",
+      "title": "鮮やかなオレンジのボブ",
+      "family": "orange",
+      "beforeLevel": 16,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Br8",
+          "percent": 20
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "根元〜約8cm",
+      "additionalFormulas": [
+        {
+          "area": "毛先",
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー",
+          "ingredients": [
+            {
+              "name": "オレンジ",
+              "parts": 1
+            }
+          ],
+          "auxiliaries": [],
+          "additions": [
+            {
+              "name": "エノグ ホリッカーオレンジ",
+              "amount": 20,
+              "unit": "percent"
+            }
+          ],
+          "developerPercent": 2,
+          "usesDeveloper": true,
+          "processingMinutes": 15,
+          "processingMinutesUpper": 20,
+          "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）"
+        }
+      ],
+      "note": "前処理は時短ブリーチ。根元〜約8cmと毛先は同じオレンジデザイン内の別処方として保持。",
+      "residualColorNote": "6か月前の低明度カラーの残留が強め。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_094/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_094/original.jpeg",
+      "afterAsset": "assets/recipes/orange_094/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6862615587846763,
+      "beforeAreas": [],
+      "beforeAssessment": {
+        "status": "user_confirmed",
+        "level": 16,
+        "levelUpper": null,
+        "photo": "IMG_0540.jpeg",
+        "area": "全体のオレンジ（根元〜約8cmと毛先の別処方）",
+        "referenceRecipeIds": [],
+        "rationale": "清水さんの回答「１６」を保存。オンカラー直前のBefore。",
+        "confidence": "owner_confirmed",
+        "ownerConfirmed": true,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json"
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-095",
+      "sourceNumber": "095",
+      "title": "オレンジのインナーカラー",
+      "family": "orange",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 5
+        },
+        {
+          "name": "レッド",
+          "parts": 1
+        },
+        {
+          "name": "クリアカラー",
+          "parts": 0.5,
+          "unit": "multiplier",
+          "basis": "mainColorTotalExcludingClear"
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "インナーのオレンジ部分",
+      "additionalFormulas": [],
+      "note": "",
+      "residualColorNote": "",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_095/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_095/original.jpeg",
+      "afterAsset": "assets/recipes/orange_095/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.7553707553707554,
+      "beforeAreas": [
+        {
+          "area": "インナーのオレンジ部分",
+          "level": 17
+        }
+      ],
+      "beforeAssessment": {
+        "status": "photo_estimated",
+        "level": 17,
+        "levelUpper": null,
+        "photo": "IMG_0541.jpeg",
+        "area": "インナーのオレンジ部分",
+        "referenceRecipeIds": [
+          "beige-087",
+          "pink-052"
+        ],
+        "rationale": "写真推定17Lvへの清水さんの承認「おｋ」。本人の独立した数値回答・実測とは区別。",
+        "confidence": "owner_approved_estimate",
+        "ownerConfirmed": false,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json",
+        "ownerApproved": true,
+        "independentlyAnsweredLevel": false,
+        "originalPhotoRationale": "Before小窓の濡れた黄〜黄橙の明るい毛束を、087・052の17LvのBeforeと比較。濡れ具合と小窓サイズの差があるため写真推定。"
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-096",
+      "sourceNumber": "096",
+      "title": "黒髪から見えるオレンジのデザインカラー",
+      "family": "orange",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [
+        {
+          "name": "マニックパニック サイケデリックサンセット",
+          "amount": 20,
+          "unit": "percent"
+        }
+      ],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "オレンジのブリーチ部分",
+      "additionalFormulas": [],
+      "note": "",
+      "residualColorNote": "残留剥がしなし。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_096/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_096/original.jpeg",
+      "afterAsset": "assets/recipes/orange_096/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6820276497695853,
+      "beforeAreas": [
+        {
+          "area": "オレンジのブリーチ部分",
+          "level": 16.5,
+          "levelUpper": 17
+        }
+      ],
+      "beforeAssessment": {
+        "status": "photo_estimated",
+        "level": 16.5,
+        "levelUpper": 17,
+        "photo": "IMG_0542.jpeg",
+        "area": "オレンジのブリーチ部分",
+        "referenceRecipeIds": [
+          "red-038",
+          "pink-052"
+        ],
+        "rationale": "写真推定16.5〜17Lvへの清水さんの承認「おｋ」。本人の独立した数値回答・実測とは区別。",
+        "confidence": "owner_approved_estimate",
+        "ownerConfirmed": false,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json",
+        "ownerApproved": true,
+        "independentlyAnsweredLevel": false,
+        "originalPhotoRationale": "残留剥がしなしのBefore小窓に見える黄橙〜淡い茶のブリーチ部を、038の16.5Lv・052の17Lvと比較。小窓の部位差を考慮して範囲で推定。"
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-097",
+      "sourceNumber": "097",
+      "title": "オレンジ＋レッドのストレートカラー",
+      "family": "orange",
+      "beforeLevel": 14.5,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 2
+        },
+        {
+          "name": "レッド",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1.5（1.5倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "全体",
+      "additionalFormulas": [],
+      "note": "前処理はライトナー＋アクセスフリー＝1：10％、OX6％2倍、45分放置。オンカラーの放置時間15〜20分とは別。",
+      "residualColorNote": "",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_097/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_097/original.jpeg",
+      "afterAsset": "assets/recipes/orange_097/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6927670869276709,
+      "beforeAssessment": {
+        "status": "user_confirmed",
+        "level": 14.5,
+        "levelUpper": null,
+        "photo": "IMG_0543.jpeg",
+        "area": "全体",
+        "referenceRecipeIds": [],
+        "rationale": "清水さんの回答「１４．５」を保存。オンカラー直前のBefore。",
+        "confidence": "owner_confirmed",
+        "ownerConfirmed": true,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json"
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-098",
+      "sourceNumber": "098",
+      "title": "ナチュラルなオレンジブラウンのインナー",
+      "family": "orange",
+      "beforeLevel": null,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 5
+        },
+        {
+          "name": "Ch8",
+          "parts": 1
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Vi8",
+          "percent": 10
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "インナーのオレンジブラウン部分",
+      "additionalFormulas": [],
+      "note": "表面は落ち着いたブラウンへトーンダウンし、インナーはショコラを混ぜてオレンジ過ぎないナチュラルカラーを目指す原文を保持。",
+      "residualColorNote": "Beforeの注記は残留剥がしなし。",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_098/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_098/original.jpeg",
+      "afterAsset": "assets/recipes/orange_098/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.8002853067047075,
+      "beforeAssessment": {
+        "status": "user_confirmed",
+        "level": 17,
+        "levelUpper": null,
+        "photo": "IMG_0544.jpeg",
+        "area": "インナーのオレンジブラウン部分",
+        "referenceRecipeIds": [],
+        "rationale": "清水さんの回答「１７」を保存。オンカラー直前のBefore。",
+        "confidence": "owner_confirmed",
+        "ownerConfirmed": true,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json"
+      },
+      "beforeAreas": [
+        {
+          "area": "インナーのオレンジブラウン部分",
+          "level": 17
+        }
+      ],
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    },
+    {
+      "id": "orange-099",
+      "sourceNumber": "099",
+      "title": "ガーネットを合わせたオレンジのウェーブカラー",
+      "family": "orange",
+      "beforeLevel": 15,
+      "manufacturer": "ナプラ",
+      "productLine": "ナシードファッションカラー／N.ルフレカラー",
+      "ingredients": [
+        {
+          "name": "オレンジ",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        },
+        {
+          "name": "9ガーネット",
+          "parts": 1,
+          "manufacturer": "ナプラ",
+          "productLine": "N.ルフレカラー"
+        }
+      ],
+      "auxiliaries": [
+        {
+          "name": "Br8",
+          "percent": 15,
+          "manufacturer": "ナプラ",
+          "productLine": "ナシードファッションカラー"
+        }
+      ],
+      "additions": [],
+      "developerPercent": 2,
+      "developerRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+      "usesDeveloper": true,
+      "processingMinutes": 15,
+      "processingMinutesUpper": 20,
+      "formulaArea": "全体",
+      "additionalFormulas": [],
+      "note": "前処理はライトナー＋アクセスフリー＝1：25％、OX6％2倍、50分放置。オンカラーの放置時間15〜20分とは別。",
+      "residualColorNote": "",
+      "confirmationNote": "",
+      "formulaAsset": "assets/recipes/orange_099/original.jpeg",
+      "afterOriginalAsset": "assets/recipes/orange_099/original.jpeg",
+      "afterAsset": "assets/recipes/orange_099/after_cleaned_v1.png",
+      "afterRetouched": true,
+      "afterAspectRatio": 0.6824769433465085,
+      "beforeAssessment": {
+        "status": "user_confirmed",
+        "level": 15,
+        "levelUpper": null,
+        "photo": "IMG_0545.jpeg",
+        "area": "全体",
+        "referenceRecipeIds": [],
+        "rationale": "清水さんの回答「１５」を保存。オンカラー直前のBefore。",
+        "confidence": "owner_confirmed",
+        "ownerConfirmed": true,
+        "measured": false,
+        "sourceRecord": "output/color-recipes-orange-20261109/answers.json"
+      },
+      "stylist": {
+        "name": "清水",
+        "instagramUrl": "https://www.instagram.com/sometech_shimizu/"
+      }
+    }
+  ],
+  "newRecipeDefaults": {
+    "processingMinutes": 15,
+    "processingMinutesUpper": 20
+  },
+  "developerRatioRules": {
+    "sourceDate": "2026-11-07",
+    "source": "清水のレシピ登録方針。個別の明示比率を優先し、未記載の比率は質問しない。",
+    "colorRatio": "カラー剤合計：オキシ＝1：1（等倍）",
+    "highLiftMinLevel": 13,
+    "highLiftColorRatio": "カラー剤合計：オキシ＝1：2（2倍）",
+    "bleachRatio": "ブリーチ剤：オキシ＝1：2（2倍）"
+  },
+  "registrationScopeRules": {
+    "sourceDate": "2026-11-07",
+    "twoToneDefault": "bleached_more_vivid_section",
+    "reportSelectedAreaWithPhoto": true,
+    "askBeforeSelectionWhenAmbiguousOnly": true,
+    "preserveOmittedFormulas": true,
+    "honorExplicitScope": true,
+    "source": "2色の場合はブリーチした鮮やかな部分を基本に登録し、写真と部位を添えて「こちらを登録しました」と知らせる。"
+  },
+  "clearRatioRules": {
+    "sourceDate": "2026-11-07",
+    "basis": "mainColorTotalExcludingClear",
+    "clearIsMainIngredient": true,
+    "preserveMultiplierUnits": true,
+    "askSameDefinitionAgain": false,
+    "exampleOnly": {
+      "mainColorsGrams": [
+        10,
+        10
+      ],
+      "clearMultiplier": 1,
+      "clearGrams": 20
+    },
+    "source": "クリア1倍はクリア以外の主剤の合計量と同じ量。10g＋10gに対して20g。"
+  }
+}
